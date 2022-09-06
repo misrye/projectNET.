@@ -1,0 +1,64 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+header {
+    background-color: rgb(7, 11, 53);
+    background: linear-gradient(#07142e,#1c3a75);
+    width: auto;
+}
+ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0.5rem;
+    padding: 5px 50px;
+    /* background-color: rgb(255, 0, 0); */
+}
+.netverseLogo {
+    width: 110px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+    /* background-color: red; */
+}
+li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 12px;  
+    vertical-align: middle;
+    cursor: pointer;
+}
+li img {
+    width: 20px;
+}
+.id {
+    font-size: 0.9em;
+}
+.account {
+    width: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .netverseLogo {
+        width: 80px;
+        /* margin-left: 30px;
+        margin-top: 0.3rem; */
+        margin: 0.4rem 0 0 30px;
+    }
+    ul {
+        /* background-color: red; */
+        padding: 5px;
+        margin-top: 0.5rem;
+    }
+    li img {
+        width: 15px;
+    }
+    .account {
+        width: 25px;
+    }
+}
